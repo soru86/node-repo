@@ -1,0 +1,32 @@
+{
+  "name": "qoper8-wt",
+  "version": "6.0.5",
+  "config": {
+    "date": "28 September 2023"
+  },
+  "description": "Worker Thread Pool Management Utility for Node.js",
+  "main": "./src/QOper8.mjs",
+  "exports": {
+    ".": "./src/QOper8.mjs",
+    "./benchmark": "./benchmark/qoper8-wt-benchmark.mjs"
+  },
+  "engines" : {
+    "node" : ">=14.0.0"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robtweed/qoper8-wt.git"
+  },
+  "author": "Rob Tweed, MGateway Ltd",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/robtweed/qoper8-wt/issues"
+  },
+  "homepage": "https://github.com/robtweed/qoper8-wt#readme",
+  "dependencies": {
+    "double-ended-queue": "",
+    "uuid": ""
+  }
+}
